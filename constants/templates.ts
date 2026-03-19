@@ -2,7 +2,14 @@ export interface TemplateEntry {
   title: string
   path: string
   description: string
-  icon: 'shield' | 'key' | 'database' | 'flame' | 'sparkles' | 'mail' | 'message'
+  icon:
+    | 'shield'
+    | 'key'
+    | 'database'
+    | 'flame'
+    | 'sparkles'
+    | 'mail'
+    | 'message'
   logoLabel: string
 }
 
@@ -23,14 +30,16 @@ export const templates: Templates[] = [
       {
         title: 'Shadcn',
         path: '/templates/authentication/shadcn-auth',
-        description: 'Authentication starter with login, signup, and recovery flows.',
+        description:
+          'Authentication starter with login, signup, and recovery flows.',
         icon: 'shield',
         logoLabel: 'shadcn/ui',
       },
       {
         title: 'Clerk Elements Auth',
         path: '/templates/authentication/clerk-auth',
-        description: 'Sign-in form layout adapted for Clerk Elements flows.',
+        description:
+          'Clerk-style auth starter with sign-in, sign-up, and reset flows.',
         icon: 'key',
         logoLabel: 'Clerk',
       },
@@ -66,7 +75,8 @@ export const templates: Templates[] = [
       {
         title: 'Contact Form',
         path: '/templates/contact/contact',
-        description: 'General inquiry form for support and sales conversations.',
+        description:
+          'General inquiry form for support and sales conversations.',
         icon: 'message',
         logoLabel: 'Contact',
       },

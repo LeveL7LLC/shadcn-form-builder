@@ -39,7 +39,7 @@ export const featuredSponsors: Sponsor[] = [
     id: 2,
     name: 'shadcnspace.com',
     designation: 'Community Supporter',
-    image: 'https://shadcnspace.com/images/logo/shadcnspace-white.svg',
+    image: '/assets/sponsors/shadcnspace.webp',
     tier: 'community',
     url: 'https://shadcnspace.com/?utm_source=shadcn-form&utm_medium=banner&utm_campaign=sponsor',
     isActive: true,
